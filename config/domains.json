@@ -1,0 +1,7 @@
+﻿{
+  "solana": ["docs.solana.com","solana.com","docs.jup.ag","raydium.io","helius.dev","docs.pyth.network","switchboard.xyz"],
+  "ethereum": ["ethereum.org","docs.uniswap.org","docs.aave.com","docs.curve.fi","docs.makerdao.com","docs.compound.finance","docs.balancer.fi","docs.sushi.com"],
+  "base": ["docs.base.org","docs.farcaster.xyz","docs.metamask.io"],
+  "bitcoin": ["bitcoin.org","en.bitcoin.it","bitcoinmagazine.com"],
+  "shadow": ["docs.arbitrum.io","chain.link","docs.lido.fi","defillama.com","dune.com","thegraph.com","messari.io"]
+}
