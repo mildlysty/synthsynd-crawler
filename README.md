@@ -23,15 +23,18 @@ A production-ready Rust crawler that crawls crypto documentation across five car
 **Live viewer:** [super-engine-x5v56j66jc66wr-8000.app.github.dev](https://super-engine-x5v56j66jc66wr-8000.app.github.dev)
 
 ## Architecture
+
+```
 ┌─────────────────────────────────────────┐
-│ Axum HTTP + SSE server (port 8000) │
+│   Axum HTTP + SSE server (port 8000)    │
 ├─────────────────────────────────────────┤
-│ Crawler workers (Tokio tasks) │
+│   Crawler workers (Tokio tasks)         │
 ├─────────────────────────────────────────┤
-│ SQLite database (synthsynd.db) │
+│   SQLite database (synthsynd.db)        │
 ├─────────────────────────────────────────┤
-│ 45 crypto domains · 5 cartels │
+│   45 crypto domains · 5 cartels         │
 └─────────────────────────────────────────┘
+```
 
 - **Language:** Rust
 - **Web framework:** Axum
